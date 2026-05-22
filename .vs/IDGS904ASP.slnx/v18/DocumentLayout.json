@@ -3,39 +3,75 @@
   "WorkspaceRootPath": "C:\\Users\\16sep\\source\\repos\\IDGS904ASP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EF1C14AA-2F6C-4285-BDDA-95DAF657C1E6}|IDGS904ASP\\IDGS904ASP.csproj|c:\\users\\16sep\\source\\repos\\idgs904asp\\idgs904asp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF1C14AA-2F6C-4285-BDDA-95DAF657C1E6}|IDGS904ASP\\IDGS904ASP.csproj|solutionrelative:idgs904asp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF1C14AA-2F6C-4285-BDDA-95DAF657C1E6}|IDGS904ASP\\IDGS904ASP.csproj|c:\\users\\16sep\\source\\repos\\idgs904asp\\idgs904asp\\controllers\\pruebascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF1C14AA-2F6C-4285-BDDA-95DAF657C1E6}|IDGS904ASP\\IDGS904ASP.csproj|solutionrelative:idgs904asp\\controllers\\pruebascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EF1C14AA-2F6C-4285-BDDA-95DAF657C1E6}|IDGS904ASP\\IDGS904ASP.csproj|c:\\users\\16sep\\source\\repos\\idgs904asp\\idgs904asp\\views\\cinepolis\\cinepolis.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{EF1C14AA-2F6C-4285-BDDA-95DAF657C1E6}|IDGS904ASP\\IDGS904ASP.csproj|solutionrelative:idgs904asp\\views\\cinepolis\\cinepolis.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EF1C14AA-2F6C-4285-BDDA-95DAF657C1E6}|IDGS904ASP\\IDGS904ASP.csproj|c:\\users\\16sep\\source\\repos\\idgs904asp\\idgs904asp\\models\\cinepolis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF1C14AA-2F6C-4285-BDDA-95DAF657C1E6}|IDGS904ASP\\IDGS904ASP.csproj|solutionrelative:idgs904asp\\models\\cinepolis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF1C14AA-2F6C-4285-BDDA-95DAF657C1E6}|IDGS904ASP\\IDGS904ASP.csproj|c:\\users\\16sep\\source\\repos\\idgs904asp\\idgs904asp\\controllers\\cinepoliscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EF1C14AA-2F6C-4285-BDDA-95DAF657C1E6}|IDGS904ASP\\IDGS904ASP.csproj|C:\\Users\\16sep\\source\\repos\\IDGS904ASP\\idgs904asp\\controllers\\cinepoliscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EF1C14AA-2F6C-4285-BDDA-95DAF657C1E6}|IDGS904ASP\\IDGS904ASP.csproj|solutionrelative:idgs904asp\\controllers\\cinepoliscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EF1C14AA-2F6C-4285-BDDA-95DAF657C1E6}|IDGS904ASP\\IDGS904ASP.csproj|c:\\users\\16sep\\source\\repos\\idgs904asp\\idgs904asp\\models\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF1C14AA-2F6C-4285-BDDA-95DAF657C1E6}|IDGS904ASP\\IDGS904ASP.csproj|solutionrelative:idgs904asp\\models\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EF1C14AA-2F6C-4285-BDDA-95DAF657C1E6}|IDGS904ASP\\IDGS904ASP.csproj|c:\\users\\16sep\\source\\repos\\idgs904asp\\idgs904asp\\models\\resistencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF1C14AA-2F6C-4285-BDDA-95DAF657C1E6}|IDGS904ASP\\IDGS904ASP.csproj|solutionrelative:idgs904asp\\models\\resistencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EF1C14AA-2F6C-4285-BDDA-95DAF657C1E6}|IDGS904ASP\\IDGS904ASP.csproj|c:\\users\\16sep\\source\\repos\\idgs904asp\\idgs904asp\\views\\pruebas\\empleado.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{EF1C14AA-2F6C-4285-BDDA-95DAF657C1E6}|IDGS904ASP\\IDGS904ASP.csproj|c:\\users\\16sep\\source\\repos\\idgs904asp\\idgs904asp\\controllers\\resistenciacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF1C14AA-2F6C-4285-BDDA-95DAF657C1E6}|IDGS904ASP\\IDGS904ASP.csproj|solutionrelative:idgs904asp\\controllers\\resistenciacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF1C14AA-2F6C-4285-BDDA-95DAF657C1E6}|IDGS904ASP\\IDGS904ASP.csproj|C:\\Users\\16sep\\source\\repos\\IDGS904ASP\\idgs904asp\\models\\cinepolis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF1C14AA-2F6C-4285-BDDA-95DAF657C1E6}|IDGS904ASP\\IDGS904ASP.csproj|solutionrelative:idgs904asp\\models\\cinepolis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF1C14AA-2F6C-4285-BDDA-95DAF657C1E6}|IDGS904ASP\\IDGS904ASP.csproj|c:\\users\\16sep\\source\\repos\\idgs904asp\\idgs904asp\\views\\pruebas\\editortemplates\\contacto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF1C14AA-2F6C-4285-BDDA-95DAF657C1E6}|IDGS904ASP\\IDGS904ASP.csproj|solutionrelative:idgs904asp\\views\\pruebas\\editortemplates\\contacto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF1C14AA-2F6C-4285-BDDA-95DAF657C1E6}|IDGS904ASP\\IDGS904ASP.csproj|c:\\users\\16sep\\source\\repos\\idgs904asp\\idgs904asp\\views\\pruebas\\editortemplates\\empleado.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF1C14AA-2F6C-4285-BDDA-95DAF657C1E6}|IDGS904ASP\\IDGS904ASP.csproj|solutionrelative:idgs904asp\\views\\pruebas\\editortemplates\\empleado.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF1C14AA-2F6C-4285-BDDA-95DAF657C1E6}|IDGS904ASP\\IDGS904ASP.csproj|c:\\users\\16sep\\source\\repos\\idgs904asp\\idgs904asp\\views\\pruebas\\editortemplates\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF1C14AA-2F6C-4285-BDDA-95DAF657C1E6}|IDGS904ASP\\IDGS904ASP.csproj|solutionrelative:idgs904asp\\views\\pruebas\\editortemplates\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF1C14AA-2F6C-4285-BDDA-95DAF657C1E6}|IDGS904ASP\\IDGS904ASP.csproj|c:\\users\\16sep\\source\\repos\\idgs904asp\\idgs904asp\\views\\pruebas\\listas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF1C14AA-2F6C-4285-BDDA-95DAF657C1E6}|IDGS904ASP\\IDGS904ASP.csproj|solutionrelative:idgs904asp\\views\\pruebas\\listas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF1C14AA-2F6C-4285-BDDA-95DAF657C1E6}|IDGS904ASP\\IDGS904ASP.csproj|C:\\Users\\16sep\\source\\repos\\IDGS904ASP\\idgs904asp\\views\\pruebas\\empleado.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{EF1C14AA-2F6C-4285-BDDA-95DAF657C1E6}|IDGS904ASP\\IDGS904ASP.csproj|solutionrelative:idgs904asp\\views\\pruebas\\empleado.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EF1C14AA-2F6C-4285-BDDA-95DAF657C1E6}|IDGS904ASP\\IDGS904ASP.csproj|c:\\users\\16sep\\source\\repos\\idgs904asp\\idgs904asp\\views\\pruebas\\contacto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{EF1C14AA-2F6C-4285-BDDA-95DAF657C1E6}|IDGS904ASP\\IDGS904ASP.csproj|C:\\Users\\16sep\\source\\repos\\IDGS904ASP\\idgs904asp\\controllers\\pruebascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF1C14AA-2F6C-4285-BDDA-95DAF657C1E6}|IDGS904ASP\\IDGS904ASP.csproj|solutionrelative:idgs904asp\\controllers\\pruebascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF1C14AA-2F6C-4285-BDDA-95DAF657C1E6}|IDGS904ASP\\IDGS904ASP.csproj|c:\\users\\16sep\\source\\repos\\idgs904asp\\idgs904asp\\views\\pruebas\\displaytemplates\\datetime.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF1C14AA-2F6C-4285-BDDA-95DAF657C1E6}|IDGS904ASP\\IDGS904ASP.csproj|solutionrelative:idgs904asp\\views\\pruebas\\displaytemplates\\datetime.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF1C14AA-2F6C-4285-BDDA-95DAF657C1E6}|IDGS904ASP\\IDGS904ASP.csproj|c:\\users\\16sep\\source\\repos\\idgs904asp\\idgs904asp\\views\\pruebas\\displaytemplates\\boolean.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF1C14AA-2F6C-4285-BDDA-95DAF657C1E6}|IDGS904ASP\\IDGS904ASP.csproj|solutionrelative:idgs904asp\\views\\pruebas\\displaytemplates\\boolean.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF1C14AA-2F6C-4285-BDDA-95DAF657C1E6}|IDGS904ASP\\IDGS904ASP.csproj|c:\\users\\16sep\\source\\repos\\idgs904asp\\idgs904asp\\views\\pruebas\\displaytemplates\\persona.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF1C14AA-2F6C-4285-BDDA-95DAF657C1E6}|IDGS904ASP\\IDGS904ASP.csproj|solutionrelative:idgs904asp\\views\\pruebas\\displaytemplates\\persona.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF1C14AA-2F6C-4285-BDDA-95DAF657C1E6}|IDGS904ASP\\IDGS904ASP.csproj|C:\\Users\\16sep\\source\\repos\\IDGS904ASP\\idgs904asp\\models\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF1C14AA-2F6C-4285-BDDA-95DAF657C1E6}|IDGS904ASP\\IDGS904ASP.csproj|solutionrelative:idgs904asp\\models\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF1C14AA-2F6C-4285-BDDA-95DAF657C1E6}|IDGS904ASP\\IDGS904ASP.csproj|C:\\Users\\16sep\\source\\repos\\IDGS904ASP\\idgs904asp\\views\\pruebas\\contacto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{EF1C14AA-2F6C-4285-BDDA-95DAF657C1E6}|IDGS904ASP\\IDGS904ASP.csproj|solutionrelative:idgs904asp\\views\\pruebas\\contacto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EF1C14AA-2F6C-4285-BDDA-95DAF657C1E6}|IDGS904ASP\\IDGS904ASP.csproj|c:\\users\\16sep\\source\\repos\\idgs904asp\\idgs904asp\\views\\pruebas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{EF1C14AA-2F6C-4285-BDDA-95DAF657C1E6}|IDGS904ASP\\IDGS904ASP.csproj|C:\\Users\\16sep\\source\\repos\\IDGS904ASP\\idgs904asp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF1C14AA-2F6C-4285-BDDA-95DAF657C1E6}|IDGS904ASP\\IDGS904ASP.csproj|solutionrelative:idgs904asp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF1C14AA-2F6C-4285-BDDA-95DAF657C1E6}|IDGS904ASP\\IDGS904ASP.csproj|C:\\Users\\16sep\\source\\repos\\IDGS904ASP\\idgs904asp\\views\\pruebas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{EF1C14AA-2F6C-4285-BDDA-95DAF657C1E6}|IDGS904ASP\\IDGS904ASP.csproj|solutionrelative:idgs904asp\\views\\pruebas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -46,115 +82,231 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ResistenciaController.cs",
+              "DocumentMoniker": "C:\\Users\\16sep\\source\\repos\\IDGS904ASP\\IDGS904ASP\\Controllers\\ResistenciaController.cs",
+              "RelativeDocumentMoniker": "IDGS904ASP\\Controllers\\ResistenciaController.cs",
+              "ToolTip": "C:\\Users\\16sep\\source\\repos\\IDGS904ASP\\IDGS904ASP\\Controllers\\ResistenciaController.cs",
+              "RelativeToolTip": "IDGS904ASP\\Controllers\\ResistenciaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T21:51:54.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Resistencia.cs",
+              "DocumentMoniker": "C:\\Users\\16sep\\source\\repos\\IDGS904ASP\\IDGS904ASP\\Models\\Resistencia.cs",
+              "RelativeDocumentMoniker": "IDGS904ASP\\Models\\Resistencia.cs",
+              "ToolTip": "C:\\Users\\16sep\\source\\repos\\IDGS904ASP\\IDGS904ASP\\Models\\Resistencia.cs",
+              "RelativeToolTip": "IDGS904ASP\\Models\\Resistencia.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T21:51:02.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Cinepolis.cshtml",
               "DocumentMoniker": "C:\\Users\\16sep\\source\\repos\\IDGS904ASP\\IDGS904ASP\\Views\\Cinepolis\\Cinepolis.cshtml",
               "RelativeDocumentMoniker": "IDGS904ASP\\Views\\Cinepolis\\Cinepolis.cshtml",
               "ToolTip": "C:\\Users\\16sep\\source\\repos\\IDGS904ASP\\IDGS904ASP\\Views\\Cinepolis\\Cinepolis.cshtml",
               "RelativeToolTip": "IDGS904ASP\\Views\\Cinepolis\\Cinepolis.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAM4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-05-14T01:04:35.621Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
+              "Title": "Empleado.cshtml",
+              "DocumentMoniker": "C:\\Users\\16sep\\source\\repos\\IDGS904ASP\\IDGS904ASP\\Views\\Pruebas\\EditorTemplates\\Empleado.cshtml",
+              "RelativeDocumentMoniker": "IDGS904ASP\\Views\\Pruebas\\EditorTemplates\\Empleado.cshtml",
+              "ToolTip": "C:\\Users\\16sep\\source\\repos\\IDGS904ASP\\IDGS904ASP\\Views\\Pruebas\\EditorTemplates\\Empleado.cshtml",
+              "RelativeToolTip": "IDGS904ASP\\Views\\Pruebas\\EditorTemplates\\Empleado.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-21T21:14:49.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Contacto.cshtml",
+              "DocumentMoniker": "C:\\Users\\16sep\\source\\repos\\IDGS904ASP\\IDGS904ASP\\Views\\Pruebas\\EditorTemplates\\Contacto.cshtml",
+              "RelativeDocumentMoniker": "IDGS904ASP\\Views\\Pruebas\\EditorTemplates\\Contacto.cshtml",
+              "ToolTip": "C:\\Users\\16sep\\source\\repos\\IDGS904ASP\\IDGS904ASP\\Views\\Pruebas\\EditorTemplates\\Contacto.cshtml",
+              "RelativeToolTip": "IDGS904ASP\\Views\\Pruebas\\EditorTemplates\\Contacto.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-21T21:14:36.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Cinepolis.cs",
               "DocumentMoniker": "C:\\Users\\16sep\\source\\repos\\IDGS904ASP\\IDGS904ASP\\Models\\Cinepolis.cs",
               "RelativeDocumentMoniker": "IDGS904ASP\\Models\\Cinepolis.cs",
               "ToolTip": "C:\\Users\\16sep\\source\\repos\\IDGS904ASP\\IDGS904ASP\\Models\\Cinepolis.cs",
               "RelativeToolTip": "IDGS904ASP\\Models\\Cinepolis.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-14T01:01:28.194Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Empleado.cshtml",
-              "DocumentMoniker": "C:\\Users\\16sep\\source\\repos\\IDGS904ASP\\IDGS904ASP\\Views\\Pruebas\\Empleado.cshtml",
-              "RelativeDocumentMoniker": "IDGS904ASP\\Views\\Pruebas\\Empleado.cshtml",
-              "ToolTip": "C:\\Users\\16sep\\source\\repos\\IDGS904ASP\\IDGS904ASP\\Views\\Pruebas\\Empleado.cshtml",
-              "RelativeToolTip": "IDGS904ASP\\Views\\Pruebas\\Empleado.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-14T00:51:57.93Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Contacto.cshtml",
-              "DocumentMoniker": "C:\\Users\\16sep\\source\\repos\\IDGS904ASP\\IDGS904ASP\\Views\\Pruebas\\Contacto.cshtml",
-              "RelativeDocumentMoniker": "IDGS904ASP\\Views\\Pruebas\\Contacto.cshtml",
-              "ToolTip": "C:\\Users\\16sep\\source\\repos\\IDGS904ASP\\IDGS904ASP\\Views\\Pruebas\\Contacto.cshtml",
-              "RelativeToolTip": "IDGS904ASP\\Views\\Pruebas\\Contacto.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-14T00:31:42.974Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "PruebasController.cs",
-              "DocumentMoniker": "C:\\Users\\16sep\\source\\repos\\IDGS904ASP\\IDGS904ASP\\Controllers\\PruebasController.cs",
-              "RelativeDocumentMoniker": "IDGS904ASP\\Controllers\\PruebasController.cs",
-              "ToolTip": "C:\\Users\\16sep\\source\\repos\\IDGS904ASP\\IDGS904ASP\\Controllers\\PruebasController.cs",
-              "RelativeToolTip": "IDGS904ASP\\Controllers\\PruebasController.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAmwCkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-14T00:21:11.118Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Persona.cs",
-              "DocumentMoniker": "C:\\Users\\16sep\\source\\repos\\IDGS904ASP\\IDGS904ASP\\Models\\Persona.cs",
-              "RelativeDocumentMoniker": "IDGS904ASP\\Models\\Persona.cs",
-              "ToolTip": "C:\\Users\\16sep\\source\\repos\\IDGS904ASP\\IDGS904ASP\\Models\\Persona.cs",
-              "RelativeToolTip": "IDGS904ASP\\Models\\Persona.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-13T23:51:23.22Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\16sep\\source\\repos\\IDGS904ASP\\IDGS904ASP\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "IDGS904ASP\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\16sep\\source\\repos\\IDGS904ASP\\IDGS904ASP\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "IDGS904ASP\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB4AAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-13T23:49:49.389Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "CinepolisController.cs",
               "DocumentMoniker": "C:\\Users\\16sep\\source\\repos\\IDGS904ASP\\IDGS904ASP\\Controllers\\CinepolisController.cs",
               "RelativeDocumentMoniker": "IDGS904ASP\\Controllers\\CinepolisController.cs",
               "ToolTip": "C:\\Users\\16sep\\source\\repos\\IDGS904ASP\\IDGS904ASP\\Controllers\\CinepolisController.cs",
               "RelativeToolTip": "IDGS904ASP\\Controllers\\CinepolisController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwAsAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-14T01:02:48.647Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\16sep\\source\\repos\\IDGS904ASP\\IDGS904ASP\\Views\\Pruebas\\EditorTemplates\\Index.cshtml",
+              "RelativeDocumentMoniker": "IDGS904ASP\\Views\\Pruebas\\EditorTemplates\\Index.cshtml",
+              "ToolTip": "C:\\Users\\16sep\\source\\repos\\IDGS904ASP\\IDGS904ASP\\Views\\Pruebas\\EditorTemplates\\Index.cshtml",
+              "RelativeToolTip": "IDGS904ASP\\Views\\Pruebas\\EditorTemplates\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-21T21:15:02.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "Listas.cshtml",
+              "DocumentMoniker": "C:\\Users\\16sep\\source\\repos\\IDGS904ASP\\IDGS904ASP\\Views\\Pruebas\\Listas.cshtml",
+              "RelativeDocumentMoniker": "IDGS904ASP\\Views\\Pruebas\\Listas.cshtml",
+              "ToolTip": "C:\\Users\\16sep\\source\\repos\\IDGS904ASP\\IDGS904ASP\\Views\\Pruebas\\Listas.cshtml",
+              "RelativeToolTip": "IDGS904ASP\\Views\\Pruebas\\Listas.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-21T21:15:14.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PruebasController.cs",
+              "DocumentMoniker": "C:\\Users\\16sep\\source\\repos\\IDGS904ASP\\IDGS904ASP\\Controllers\\PruebasController.cs",
+              "RelativeDocumentMoniker": "IDGS904ASP\\Controllers\\PruebasController.cs",
+              "ToolTip": "C:\\Users\\16sep\\source\\repos\\IDGS904ASP\\IDGS904ASP\\Controllers\\PruebasController.cs",
+              "RelativeToolTip": "IDGS904ASP\\Controllers\\PruebasController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T00:21:11.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Empleado.cshtml",
+              "DocumentMoniker": "C:\\Users\\16sep\\source\\repos\\IDGS904ASP\\IDGS904ASP\\Views\\Pruebas\\Empleado.cshtml",
+              "RelativeDocumentMoniker": "IDGS904ASP\\Views\\Pruebas\\Empleado.cshtml",
+              "ToolTip": "C:\\Users\\16sep\\source\\repos\\IDGS904ASP\\IDGS904ASP\\Views\\Pruebas\\Empleado.cshtml",
+              "RelativeToolTip": "IDGS904ASP\\Views\\Pruebas\\Empleado.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-14T00:51:57.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "persona.cshtml",
+              "DocumentMoniker": "C:\\Users\\16sep\\source\\repos\\IDGS904ASP\\IDGS904ASP\\Views\\Pruebas\\DisplayTemplates\\persona.cshtml",
+              "RelativeDocumentMoniker": "IDGS904ASP\\Views\\Pruebas\\DisplayTemplates\\persona.cshtml",
+              "ToolTip": "C:\\Users\\16sep\\source\\repos\\IDGS904ASP\\IDGS904ASP\\Views\\Pruebas\\DisplayTemplates\\persona.cshtml",
+              "RelativeToolTip": "IDGS904ASP\\Views\\Pruebas\\DisplayTemplates\\persona.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-21T21:07:24.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Boolean.cshtml",
+              "DocumentMoniker": "C:\\Users\\16sep\\source\\repos\\IDGS904ASP\\IDGS904ASP\\Views\\Pruebas\\DisplayTemplates\\Boolean.cshtml",
+              "RelativeDocumentMoniker": "IDGS904ASP\\Views\\Pruebas\\DisplayTemplates\\Boolean.cshtml",
+              "ToolTip": "C:\\Users\\16sep\\source\\repos\\IDGS904ASP\\IDGS904ASP\\Views\\Pruebas\\DisplayTemplates\\Boolean.cshtml",
+              "RelativeToolTip": "IDGS904ASP\\Views\\Pruebas\\DisplayTemplates\\Boolean.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-21T21:10:50.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DateTime.cshtml",
+              "DocumentMoniker": "C:\\Users\\16sep\\source\\repos\\IDGS904ASP\\IDGS904ASP\\Views\\Pruebas\\DisplayTemplates\\DateTime.cshtml",
+              "RelativeDocumentMoniker": "IDGS904ASP\\Views\\Pruebas\\DisplayTemplates\\DateTime.cshtml",
+              "ToolTip": "C:\\Users\\16sep\\source\\repos\\IDGS904ASP\\IDGS904ASP\\Views\\Pruebas\\DisplayTemplates\\DateTime.cshtml",
+              "RelativeToolTip": "IDGS904ASP\\Views\\Pruebas\\DisplayTemplates\\DateTime.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-21T21:12:30.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Persona.cs",
+              "DocumentMoniker": "C:\\Users\\16sep\\source\\repos\\IDGS904ASP\\IDGS904ASP\\Models\\Persona.cs",
+              "RelativeDocumentMoniker": "IDGS904ASP\\Models\\Persona.cs",
+              "ToolTip": "C:\\Users\\16sep\\source\\repos\\IDGS904ASP\\IDGS904ASP\\Models\\Persona.cs",
+              "RelativeToolTip": "IDGS904ASP\\Models\\Persona.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T23:51:23.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Contacto.cshtml",
+              "DocumentMoniker": "C:\\Users\\16sep\\source\\repos\\IDGS904ASP\\IDGS904ASP\\Views\\Pruebas\\Contacto.cshtml",
+              "RelativeDocumentMoniker": "IDGS904ASP\\Views\\Pruebas\\Contacto.cshtml",
+              "ToolTip": "C:\\Users\\16sep\\source\\repos\\IDGS904ASP\\IDGS904ASP\\Views\\Pruebas\\Contacto.cshtml",
+              "RelativeToolTip": "IDGS904ASP\\Views\\Pruebas\\Contacto.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-14T00:31:42.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\16sep\\source\\repos\\IDGS904ASP\\IDGS904ASP\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "IDGS904ASP\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\16sep\\source\\repos\\IDGS904ASP\\IDGS904ASP\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "IDGS904ASP\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwB4AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T23:49:49.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\16sep\\source\\repos\\IDGS904ASP\\IDGS904ASP\\Views\\Pruebas\\Index.cshtml",
               "RelativeDocumentMoniker": "IDGS904ASP\\Views\\Pruebas\\Index.cshtml",
@@ -162,8 +314,7 @@
               "RelativeToolTip": "IDGS904ASP\\Views\\Pruebas\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-14T00:23:07.813Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-14T00:23:07.813Z"
             }
           ]
         }

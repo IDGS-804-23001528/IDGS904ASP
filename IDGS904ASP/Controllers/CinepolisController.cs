@@ -1,58 +1,65 @@
-﻿using IDGS904ASP.Models;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using IDGS904ASP.Models;
 
 namespace IDGS904ASP.Controllers
 {
     public class CinepolisController : Controller
     {
-        // GET: Cinepolis/Index
-        public ActionResult Index()
+        
+        public ActionResult Cinepolis()
         {
-            return View();
+            return View(new Cinepolis());
         }
 
+        
         [HttpPost]
-        public ActionResult Index(Cinepolis cine)
+        public ActionResult Cinepolis(Cinepolis datos)
         {
-            // Definición de constantes
-            const double PRECIO_BOLETO = 12.0; // Ajustado a un precio más real, cámbialo si es necesario
-            double total = 0;
+            
+            const double COSTO_BOLETO = 12.00;
+            double subtotal;
+            double descuento = 0;
+            double totalPagar;
 
-            // 1. Validación de límite de boletos (Máximo 7 por persona)
-            if (cine.CantidadBoletos > (cine.CantidadCompradores * 7))
+           
+            int limiteBoletos = datos.CantidadCompradores * 7;
+
+            if (datos.CantidadBoletos > limiteBoletos)
             {
-                ViewBag.Error = "No se pueden comprar más de 7 boletos por persona.";
-                return View(cine); // Retornamos el modelo para no borrar lo que el usuario escribió
+                ViewBag.Mensaje = $"La cantidad de boletos excede el límite permitido ({limiteBoletos} boletos max).";
+                return View(datos); 
             }
 
-            // 2. Cálculo inicial
-            total = cine.CantidadBoletos * PRECIO_BOLETO;
+           
+            subtotal = datos.CantidadBoletos * COSTO_BOLETO;
 
-            // 3. Aplicación de descuentos por cantidad de boletos
-            if (cine.CantidadBoletos > 5)
+            
+            if (datos.CantidadBoletos >= 3 && datos.CantidadBoletos <= 5)
             {
-                total -= (total * 0.15); // 15% de descuento
+                descuento = subtotal * 0.10; 
             }
-            else if (cine.CantidadBoletos >= 3)
+            else if (datos.CantidadBoletos > 5)
             {
-                total -= (total * 0.10); // 10% de descuento
-            }
-
-            // 4. Descuento adicional por Tarjeta CINECO (acumulable)
-            if (cine.Tarjeta)
-            {
-                total -= (total * 0.10); // 10% adicional sobre el total actual
+                descuento = subtotal * 0.15;
             }
 
-            // 5. Envío de resultados a la Vista
-            ViewBag.Nombre = cine.Nombre;
-            ViewBag.Total = total;
+            totalPagar = subtotal - descuento;
 
-            return View(cine);
+          
+            if (datos.Tarjeta)
+            {
+                totalPagar -= (totalPagar * 0.10); 
+            }
+
+           
+            ViewBag.Cliente = datos.Nombre;
+            ViewBag.Resultado = totalPagar;
+
+            return View(datos); 
         }
     }
 }

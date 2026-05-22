@@ -1,63 +1,289 @@
 ﻿@model IDGS904ASP.Models.Cinepolis
 
 @{
-    ViewBag.Title = "Cinepolis";
+    Layout = null; 
 }
 
-<div class="container mt-4">
-    <div class="card">
-        <div class="card-header bg-primary text-white">
-            <h2>Cinepolis - Venta de Boletos</h2>
-        </div>
-        <div class="card-body">
-            @using (Html.BeginForm())
-            {
-                <div class="form-group mb-3">
-                    <label>Nombre:</label>
-                    @Html.TextBoxFor(m => m.Nombre, new { @class = "form-control" })
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Decisiones Caso 2</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            position: relative;
+            font-family: "Times New Roman", Times, serif;
+            background-color: #00569f;
+            overflow: hidden;
+        }
+
+        body::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('@Url.Content("~/Content/M.png")'); 
+            background-repeat: no-repeat;
+            background-size: 700px auto; 
+            background-position: center 50%; 
+            z-index: 1; 
+        }
+
+        .window-container {
+            width: 900px;
+            padding: 10px;
+            position: relative;
+            z-index: 2; 
+        }
+
+       
+        .main-title {
+            background-color: white;
+            color: black;
+            font-family: "Times New Roman", Times, serif;
+            font-style: italic;
+            font-weight: bold;
+            font-size: 32px;
+            padding: 2px 35px;
+            border: 2px solid #000;
+            width: fit-content;
+            margin: 0 auto 20px auto;
+            text-align: center;
+        }
+
+        fieldset {
+            border: 1.5px solid rgba(255, 255, 255, 0.9);
+            border-radius: 0px;
+            padding: 20px 25px;
+            margin-bottom: 15px;
+            background-color: transparent; 
+        }
+
+        legend {
+            color: white;
+            font-size: 24px;
+            font-style: italic;
+            font-weight: bold;
+            padding: 0 10px;
+        }
+
+        .flex-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 40px;
+        }
+
+        .col-entradas {
+            width: 55%;
+        }
+
+        .col-salidas {
+            width: 40%;
+        }
+
+        .form-row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 15px;
+        }
+
+        .form-row label {
+            color: white;
+            font-size: 18px;
+            font-weight: 500;
+            text-align: left;
+            flex: 1;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.9); 
+        }
+
+        input[type="text"],
+        input[type="number"],
+        .output-box {
+            width: 180px;
+            height: 28px;
+            background-color: white;
+            color: black;
+            border: 1px solid #7a7a7a;
+            padding: 0 5px;
+            font-size: 16px;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+            position: relative;
+            z-index: 3;
+        }
+
+        .output-box {
+            display: flex;
+            align-items: center;
+            font-weight: bold;
+        }
+
+        .radio-group {
+            width: 180px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            font-size: 18px;
+            color: white;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.9);
+        }
+
+        .radio-group label {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            cursor: pointer;
+        }
+
+        .radio-group input[type="radio"] {
+            margin: 0;
+            cursor: pointer;
+        }
+
+        .logo-spacer {
+            height: 60px;
+            margin: 10px 0;
+        }
+
+        .fieldset-acciones {
+            width: 45%;
+            margin: 0 auto;
+            padding: 10px;
+        }
+
+        .botones-container {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+        }
+
+        .btn-win {
+            background-color: #E1E1E1;
+            color: black;
+            border: 1px solid #ACACAC;
+            padding: 6px 30px;
+            font-size: 16px;
+            font-family: Arial, sans-serif;
+            cursor: pointer;
+            box-shadow: inset 0 0 2px #fff;
+            text-decoration: none;
+            text-align: center;
+            display: inline-block;
+            position: relative;
+            z-index: 3;
+        }
+
+        .btn-win:hover {
+            background-color: #E5F1FB;
+            border-color: #0078D7;
+        }
+
+        .alert-error {
+            color: #ff6b6b;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 15px;
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 8px;
+            display: inline-block;
+            width: 100%;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="window-container">
+
+        <div class="main-title">Cinepolis</div>
+
+        <form method="post" action="@Url.Content("~/Cinepolis/Cinepolis")">
+
+            <div class="flex-container">
+
+                <div class="col-entradas">
+                    <fieldset>
+                        <legend>Entradas</legend>
+
+                        <div class="form-row">
+                            <label for="Nombre">Nombre</label>
+                            <input type="text" id="Nombre" name="Nombre" required value="@Model.Nombre" />
+                        </div>
+
+                        <div class="form-row">
+                            <label for="CantidadCompradores">Cantidad Compradores</label>
+                            <input type="number" id="CantidadCompradores" name="CantidadCompradores" min="1" required
+                                   value="@(Model.CantidadCompradores == 0 ? "" : Model.CantidadCompradores.ToString())" />
+                        </div>
+
+                        <div class="form-row">
+                            <label>Tarjeta Cineco</label>
+                            <div class="radio-group">
+                                <label><input type="radio" name="Tarjeta" value="true" @(Model.Tarjeta ? "checked" : "") /> Si</label>
+                                <label><input type="radio" name="Tarjeta" value="false" @(!Model.Tarjeta ? "checked" : "") /> No</label>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <label for="CantidadBoletos">Cantidad De Boletas</label>
+                            <input type="number" id="CantidadBoletos" name="CantidadBoletos" min="1" required
+                                   value="@(Model.CantidadBoletos == 0 ? "" : Model.CantidadBoletos.ToString())" />
+                        </div>
+
+                    </fieldset>
                 </div>
 
-                <div class="form-group mb-3">
-                    <label>Cantidad Compradores:</label>
-                    @Html.TextBoxFor(m => m.CantidadCompradores, new { @class = "form-control", type = "number" })
+                <div class="col-salidas">
+                    <fieldset>
+                        <legend>Salidas</legend>
+
+                        <div class="form-row">
+                            <label>Valor a Pagar</label>
+                            <div class="output-box">
+                                @if (ViewBag.Resultado != null)
+                                {
+                                    <span>$@string.Format("{0:F2}", ViewBag.Resultado)</span>
+                                }
+                            </div>
+                        </div>
+
+                    </fieldset>
                 </div>
 
-                <div class="form-group mb-3">
-                    <label>Cantidad Boletos:</label>
-                    @Html.TextBoxFor(m => m.CantidadBoletos, new { @class = "form-control", type = "number" })
-                </div>
+            </div>
 
-                <div class="form-group mb-3">
-                    <label>¿Cuenta con Tarjeta CINECO?</label><br />
-                    <div class="form-check form-check-inline">
-                        @Html.RadioButtonFor(m => m.Tarjeta, true, new { @class = "form-check-input" }) Sí
+            <div class="logo-spacer"></div>
+
+            <div class="fieldset-acciones">
+                <fieldset>
+                    <legend>Acciones</legend>
+                    <div class="botones-container">
+                        <button type="submit" class="btn-win">Procesar</button>
+                        <a href="@Url.Action("Cinepolis", "Cinepolis")" class="btn-win">Salir</a>
                     </div>
-                    <div class="form-check form-check-inline">
-                        @Html.RadioButtonFor(m => m.Tarjeta, false, new { @class = "form-check-input" }) No
-                    </div>
-                </div>
+                </fieldset>
+            </div>
 
-                <button type="submit" class="btn btn-success">Procesar</button>
-            }
-
-            <hr />
-
-            @* Resultados *@
-            @if (ViewBag.Total != null)
+            @if (ViewBag.Mensaje != null)
             {
-                <div class="alert alert-info">
-                    <h3>Cliente: @ViewBag.Nombre</h3>
-                    <h3>Total a pagar: @string.Format("{0:C}", ViewBag.Total)</h3>
+                <div class="alert-error">
+                    @ViewBag.Mensaje
                 </div>
             }
 
-            @* Errores *@
-            @if (ViewBag.Error != null)
-            {
-                <div class="alert alert-danger">
-                    <h4>@ViewBag.Error</h4>
-                </div>
-            }
-        </div>
+        </form>
     </div>
-</div>
+</body>
+</html>
